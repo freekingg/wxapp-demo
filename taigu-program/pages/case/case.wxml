@@ -1,0 +1,27 @@
+<!--pages/case/case.wxml-->
+<!--case-nav-top  -->
+<view class='case-nav-top'>
+  <text class='{{currentTab==0 ? "active" : ""}}' data-current="0" bindtap="swithNav"  data-tag="全部">全部</text>
+  <text class='{{currentTab==1 ? "active" : ""}}' data-current="1" bindtap="swithNav"  data-tag="应用系统">应用系统</text>
+  <text class='{{currentTab==2 ? "active" : ""}}' data-current="2" bindtap="swithNav"  data-tag="网站建设">网站建设</text>
+  <text class='{{currentTab==3 ? "active" : ""}}' data-current="3" bindtap="swithNav"  data-tag="微信相关服务">微信相关服务</text>
+  <text class='{{currentTab==4 ? "active" : ""}}' data-current="4" bindtap="swithNav"  data-tag="移动APP开发">移动APP开发</text>
+</view>
+<!--case-list  -->
+<view class='case-list-box'>
+  <view class='case-list-item animated {{fadeInDown==true ? "fadeInDown" : ""}}' wx:for='{{ filterCaseList }}' wx:key='item.title'>
+    <image class='case-item-bg' src='{{ item.urlBg }}'></image>
+    <view class='case-item-center'>
+       <image class='case-item-sm' src='{{ item.urlSm }}'></image>
+       <view class='clae-item-rightCon'>
+        <text class='head-title'>{{ item.title }}</text>
+        <text class='head-title-info'>{{ item.info }}</text>
+        <view class='item-tag'>
+         <image class='case-item-icon' src='http://www.sdteragram.com/miniprogram/image/tag.png'></image>
+          <text class='case-item-tag'>{{ item.tag }}</text>
+        </view>
+
+       </view>
+    </view>
+  </view>
+</view>

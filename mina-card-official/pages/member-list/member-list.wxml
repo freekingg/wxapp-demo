@@ -1,0 +1,29 @@
+<!--pages/member-list/member-list.wxml-->
+<view class='center'>
+  <view class='member-list'>
+    <view class='member-item'>
+     <navigator open-type="redirect"  url="/pages/member/member?title=navigate" hover-class="navigator-hover">
+      <image src="http://www.sinelinked.com/static/other/head01.jpg"></image>
+      <text>老农</text>
+      </navigator>
+    </view>
+    <view class='member-item'>
+     <navigator open-type="redirect"  url="/pages/member/member?title=navigate" hover-class="navigator-hover">
+      <image src="http://www.sinelinked.com/static/user/team/6008078088-4993-4725-ac91-2eeb2f63395f/teamHead.jpg"></image>
+      <text>老农</text>
+      </navigator>
+    </view>
+    <view class='member-item'>
+     <navigator open-type="redirect"  url="/pages/member/member?title=navigate" hover-class="navigator-hover">
+      <image src="http://www.sinelinked.com/static/other/head01.jpg"></image>
+      <text>老农</text>
+      </navigator>
+    </view>
+    <view class='member-item'>
+     <navigator open-type="redirect"  url="/pages/member/member?title=navigate" hover-class="navigator-hover">
+      <image src="http://www.sinelinked.com/static/other/head01.jpg"></image>
+      <text>老农</text>
+      </navigator>
+    </view>
+  </view>
+</view>

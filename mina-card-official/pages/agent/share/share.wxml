@@ -1,0 +1,76 @@
+<view class="weui-panel weui-panel_access">
+  <view class="weui-panel__hd">{{ getFullYear }}年{{ getMonth }}月{{ getDate }}日 星期{{ getDay }}</view>
+  <view class="weui-panel__bd">
+    <view class="weui-media-box weui-media-box_text">
+      <view class="weui-media-box__title weui-media-box__title_in-text">寿险规划师-{{ agentName }} 分享第187天</view>
+      <view class="page__title">【特刊】没有人真的在乎你在想什么，不要高估自己在他人心目中的地位。你生活在别人的眼神里，就迷失在自己的心路上。</view>
+
+    </view>
+  </view>
+</view>
+
+<view class="weui-panel weui-panel_access">
+  <view class="weui-panel__hd">每日要闻</view>
+  <view class="weui-panel__bd">
+    <view class="weui-media-box weui-media-box_text">
+      <!-- <view class="weui-media-box__title weui-media-box__title_in-text">世界杯</view> -->
+      <view class="weui-media-box__desc">
+        <view decode='true'>
+          <text  wx:key="{{ index }}" wx:for="{{newsTopData}}"> {{ index+1 }}.{{ item.title }}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- <view class="weui-panel weui-panel_access">
+  <view class="weui-panel__hd">今日播报</view>
+  <view class="weui-panel__bd">
+    <view class="weui-media-box weui-media-box_text">
+      <view class="weui-media-box__title weui-media-box__title_in-text">世界杯</view>
+      <view class="weui-media-box__desc">
+        <text decode='true'>6日22：00 乌拉圭VS法国
+        7日02：00 巴西VS比利时
+        </text>
+      </view>
+    </view>
+  </view>
+</view> -->
+
+<view class="weui-panel weui-panel_access">
+  <view class="weui-panel__hd">理念分享</view>
+  <view class="weui-panel__bd">
+    <view bindtap='previewImages' class="weui-media-box weui-media-box_text">
+      <view class="weui-media-box__title weui-media-box__title_in-text">1 世界杯与保险，你知道这些足球明星的保险身价有多少吗？</view>
+      <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+    </view>
+    <view bindtap='previewImages' class="weui-media-box weui-media-box_text">
+      <view class="weui-media-box__title weui-media-box__title_in-text">2 亲戚朋友卖保险，我该怎么办？</view>
+      <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+    </view>
+  </view>
+</view>
+<view class="weui-media-box__info">
+  <view class="weui-media-box__info__meta">【坚守诚信、相信美好，做高素质寿险规划师】</view>
+</view>
+
+<view class="weui-panel__ft" bindtap='previewImages'>
+  <view class="weui-cell weui-cell_access weui-cell_link">
+    <view class="weui-cell__bd">查看更多</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </view>
+</view>
+<view class='hr'></view>
+<view class='hr'></view>
+<view class='hr'></view>
+<view class='hr'></view>
+<view class='hr'></view>
+<view class='hr'></view>
+<view class='hr'></view>
+<view class='hr'></view>
+<view class='hr'></view>
+<view class='hr'></view>
+<view class='hr'></view>
+
+<import src="../../tabbar-agent/tabbar-agent.wxml" />
+<template is="tabbar" data="{{tabbar}}" />

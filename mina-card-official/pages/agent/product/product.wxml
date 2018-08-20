@@ -1,0 +1,52 @@
+<!--pages/product/product.wxml-->
+<!--top-banner  -->
+<view class='top-banner'>
+  <image class='top-banner-bg' src='http://www.sinelinked.com/static/other/top-banner.jpg'></image>
+  <view class='top-banner-center'>
+    <view class='center-head-img'>
+      <image src='http://www.sinelinked.com/static/other/comany-logo.png'></image>
+    </view>
+    <text>{{ productCompanyData.company_name }}</text>
+  </view>
+</view>
+<view class='product-warp'>
+  <view class='center'>
+    <view class='product-title'>产品列表</view>
+		
+    <scroll-view wx:if="{{ productData.data.length > 0 }}" class='product-warp-list' style="height: 500px;" scroll-y bindscrolltolower="lower">
+      <view class='list-items'  data-item = '{{ "http://qr.liantu.com/api.php?bg=f3f3f3&fg=ff0000&gc=222222&el=l&w=200&m=10&text="+item.product_detail_url+""}}'  bindtap='previewImages' wx:for='{{ productData.data }}' wx:key="index">
+        <view class='list-items-left'>
+          <text class='products-name'>{{ item.product_name }}</text>
+          <view>
+            <view>
+              <image class='comany_ico' src='http://www.sinelinked.com/static/other/comany_ico.png'></image>
+              <text>{{ item.company_full_name }}</text>
+            </view>
+            <view>
+              <image class='type_ico' src='http://www.sinelinked.com/static/other/type_ico.png'></image>
+              <text>{{ item.product_type }}</text>
+            </view>
+          </view>
+        </view>
+
+        <view class='list-items-right'>
+            <image class='product_img_url' src='{{ item.product_img_url }}'></image>
+        </view>
+
+        <view class='qr_url'>
+          <image src='{{ "http://qr.liantu.com/api.php?bg=f3f3f3&fg=ff0000&gc=222222&el=l&w=200&m=10&text="+item.product_detail_url+""}}'></image>
+        </view>
+
+      </view>
+    </scroll-view>
+
+		<view class="null_product" wx:if="{{ productData.data.length <= 0 }}">
+			<image mode="aspectFit" src='http://www.sinelinked.com/static/other/null.png'></image>
+		</view>
+
+  </view>
+  <!--分享图片  -->
+<image id='shareImageUrl' binderror='imageError' src='{{ shareImageUrl }}'></image>
+</view>
+<import src="../../tabbar-agent/tabbar-agent.wxml"/>
+<template is="tabbar" data="{{tabbar}}"/>

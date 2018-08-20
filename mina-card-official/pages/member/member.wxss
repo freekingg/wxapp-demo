@@ -1,0 +1,71 @@
+/* pages/member/member.wxss */
+swiper{
+ height: 100vh;
+}
+#swiper{
+  width:86%;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 5vh;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 60rpx;
+  box-shadow: 0px 0px 50rpx rgba(0, 0, 0, .2);
+  color: #424242;
+  font-size: 26rpx;
+  line-height: 74rpx;
+}
+swiper-item{
+   /* width:86% !important; */
+}
+.slide-image{
+  width: 160rpx;
+  border-radius: 50%;
+  height: 160rpx;
+}
+#swiper .gongsi{
+ font-size: 30rpx;
+}
+#swiper .zhiwei{
+  color: #898989
+}
+#swiper .phone image{
+  width: 34rpx;
+  height: 34rpx;
+  vertical-align: text-bottom;
+  margin-right: 4rpx;
+}
+#swiper .jieshao{
+  display: block;
+  padding-top: 50rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  box-sizing: border-box;
+}
+.bottom-link{
+
+  height: 8vh;
+  /* background: red; */
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 60rpx;
+  padding-top: 110rpx;
+  line-height: 8vh;
+  justify-content: space-between
+}
+.team-link{
+  color: #3d6cc8;
+  font-size: 30rpx;
+  
+}
+.team-link image{
+    width: 40rpx;
+  height: 40rpx;
+  margin-left: 4rpx;
+  vertical-align: text-bottom;
+}
+.member-list-link{
+  color: #3d6cc8;
+  font-size: 30rpx;
+}

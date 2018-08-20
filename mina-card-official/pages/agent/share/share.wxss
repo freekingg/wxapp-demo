@@ -1,0 +1,41 @@
+/* pages/agent/share/share.wxss */
+@import "/pages/tabbar-agent/tabbar-agent.wxss";
+.weui-media-box__desc text{
+  display: block
+}
+.weui-media-box__desc {
+  -webkit-line-clamp:1000;
+  /* padding-top: 20rpx; */
+  line-height: 1.8;
+
+}
+.page__title{
+  font-size: 15px;
+  line-height: 1.5
+}
+.weui-panel{
+  /* padding-bottom: 200rpx; */
+  margin-top: -1rpx;
+}
+.hr{
+  display: block;
+  height: 16rpx;
+}
+.weui-media-box weui-media-box_text{
+  padding-top: 0
+}
+.weui-media-box__info{
+  margin-top: 0;
+  padding: 15px 0;
+}
+.weui-panel__hd{
+  font-size: 14px;
+  color: #3d6cc8
+}
+page{
+  width: 95%;
+  margin: 0 auto;
+}
+.weui-cell{
+  position: static
+}

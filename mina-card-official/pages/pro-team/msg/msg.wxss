@@ -1,0 +1,113 @@
+/* pages/pro-team/msg/msg.wxss */
+@import "/pages/tabbar-proTeam/tabbar-proTeam.wxss";
+page{
+  background: #f1f1f1;
+  padding-bottom: 120rpx;
+}
+.header-banner {
+  width: 100%;
+  height: 370rpx;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.header-banner .head-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.head-bg image {
+  width: 100%;
+  height: 100%;
+}
+
+.center{
+  width: 640rpx;
+  margin: 0 auto;
+}
+
+.main-pro{
+  background: #fff;
+  padding-top: 20rpx;
+   padding-bottom: 30rpx;
+  font-size: 24rpx;
+  color: #333;
+  line-height: 50rpx;
+}
+.consult{
+  margin-top: 20rpx;
+  background: #fff url('http://www.sinelinked.com/static/other/consult-bg.png') no-repeat center top;
+  background-size: contain;
+  padding-bottom: 50rpx;
+}
+.consult-title{
+  width: 100%;
+  display: block;
+  color: #3d6cc8;
+  text-align: center;
+  line-height: 92rpx;
+  font-size: 32rpx;
+}
+.section {
+  margin-bottom: 20rpx;
+}
+.section textarea{
+  border: 1rpx solid #e5e5e5;
+  border-radius: 6rpx;
+  padding: 20rpx;
+  font-size: 24rpx;
+  min-height: 180rpx;
+}
+.section>input{
+  border: 1rpx solid #e5e5e5;
+  border-radius: 6rpx;
+  padding: 20rpx;
+  font-size: 24rpx;
+}
+.weui-cell_vcode{
+  font-size: 24rpx;
+  border:1rpx solid #e5e5e5;
+  box-sizing: border-box;
+  padding: 16rpx 0;
+}
+.consult .submit-btn{
+  
+  margin-top: 40rpx;
+  background: #3d6cc8 !important;
+}
+.weui-vcode-btn{
+  font-size: 24rpx;
+}
+.pointer-Event{
+  pointer-events: none;
+}
+.weui-label{
+  box-sizing: border-box;
+  padding-left: 20rpx;
+}
+.weui-cell__bd{
+	/* border: 1rpx solid #e5e5e5; */
+ color: #aaaaaa;
+	font-size: 24rpx;
+}
+.weui-cell__ft_in-access{
+	font-size: 24rpx;
+ color: #aaaaaa;
+}
+.weui-cells_after-title{
+	box-sizing: border-box;
+	border-left: 1rpx solid #e5e5e5;
+	border-right: 1rpx solid #e5e5e5;
+	border-bottom: 1rpx solid #e5e5e5;
+
+}
+.weui-cells{
+	padding-top: 6rpx;
+	padding-bottom: 6rpx;
+}

@@ -1,0 +1,116 @@
+<!--pages/member/member.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+
+
+  <swiper-item>
+    <view id='swiper'>
+      <navigator open-type="redirect" url="/pages/agent/index/index" hover-class="navigator-hover">
+        <image src="http://www.sinelinked.com/static/user/team/6008078088-4993-4725-ac91-2eeb2f63395f/teamHead.jpg" class="slide-image" />
+        <view class='name'>李慧</view>
+        <view class='bianhao'>2526854625485</view>
+        <view class='gongsi'>中国平安保险公司</view>
+        <view class='zhiwei'>销售顾问</view>
+        <view bindtap='makePhoneCall' class='phone'>
+          <image src='http://www.sinelinked.com/static/other/tel.png'></image>18769526199</view>
+        <text class='jieshao'>保险传递着爱与责任，用专业中立的态度用心为您规划保险，是我们的爱和责任，保险让生活更美好！</text>
+      </navigator>
+
+      <view class='bottom-link'>
+        <navigator open-type="redirect" class='team-link' url="/pages/pro-team/index/index" hover-class="navigator-hover">团队
+          <image src='http://www.sinelinked.com/static/other/team-icon.png'></image>
+        </navigator>
+        <navigator open-type="redirect" class='member-list-link' url="/pages/member-list/member-list" hover-class="navigator-hover">更多>></navigator>
+      </view>
+    </view>
+  </swiper-item>
+
+ <swiper-item>
+    <view id='swiper'>
+      <navigator open-type="redirect" url="/pages/agent/index/index" hover-class="navigator-hover">
+        <image src="http://www.sinelinked.com/static/user/team/6008078088-4993-4725-ac91-2eeb2f63395f/teamHead.jpg" class="slide-image" />
+        <view class='name'>李慧</view>
+        <view class='bianhao'>2526854625485</view>
+        <view class='gongsi'>中国平安保险公司</view>
+        <view class='zhiwei'>销售顾问</view>
+        <view bindtap='makePhoneCall' class='phone'>
+          <image src='http://www.sinelinked.com/static/other/tel.png'></image>18769526199</view>
+        <text class='jieshao'>保险传递着爱与责任，用专业中立的态度用心为您规划保险，是我们的爱和责任，保险让生活更美好！</text>
+      </navigator>
+
+      <view class='bottom-link'>
+        <navigator open-type="redirect" class='team-link' url="/pages/pro-team/index/index" hover-class="navigator-hover">团队
+          <image src='http://www.sinelinked.com/static/other/team-icon.png'></image>
+        </navigator>
+        <navigator open-type="redirect" class='member-list-link' url="/pages/member-list/member-list" hover-class="navigator-hover">更多>></navigator>
+      </view>
+    </view>
+  </swiper-item>
+
+  <swiper-item>
+    <view id='swiper'>
+      <navigator open-type="redirect" url="/pages/agent/index/index" hover-class="navigator-hover">
+        <image src="http://www.sinelinked.com/static/user/team/6008078088-4993-4725-ac91-2eeb2f63395f/teamHead.jpg" class="slide-image" />
+        <view class='name'>李慧</view>
+        <view class='bianhao'>2526854625485</view>
+        <view class='gongsi'>中国平安保险公司</view>
+        <view class='zhiwei'>销售顾问</view>
+        <view bindtap='makePhoneCall' class='phone'>
+          <image src='http://www.sinelinked.com/static/other/tel.png'></image>18769526199</view>
+        <text class='jieshao'>保险传递着爱与责任，用专业中立的态度用心为您规划保险，是我们的爱和责任，保险让生活更美好！</text>
+      </navigator>
+
+      <view class='bottom-link'>
+        <navigator open-type="redirect" class='team-link' url="/pages/pro-team/index/index" hover-class="navigator-hover">团队
+          <image src='http://www.sinelinked.com/static/other/team-icon.png'></image>
+        </navigator>
+        <navigator open-type="redirect" class='member-list-link' url="/pages/member-list/member-list" hover-class="navigator-hover">更多>></navigator>
+      </view>
+    </view>
+  </swiper-item>
+
+  <swiper-item>
+    <view id='swiper'>
+      <navigator open-type="redirect" url="/pages/agent/index/index" hover-class="navigator-hover">
+        <image src="http://www.sinelinked.com/static/user/team/6008078088-4993-4725-ac91-2eeb2f63395f/teamHead.jpg" class="slide-image" />
+        <view class='name'>李慧</view>
+        <view class='bianhao'>2526854625485</view>
+        <view class='gongsi'>中国平安保险公司</view>
+        <view class='zhiwei'>销售顾问</view>
+        <view bindtap='makePhoneCall' class='phone'>
+          <image src='http://www.sinelinked.com/static/other/tel.png'></image>18769526199</view>
+        <text class='jieshao'>保险传递着爱与责任，用专业中立的态度用心为您规划保险，是我们的爱和责任，保险让生活更美好！</text>
+      </navigator>
+
+      <view class='bottom-link'>
+        <navigator open-type="redirect" class='team-link' url="/pages/pro-team/index/index" hover-class="navigator-hover">团队
+          <image src='http://www.sinelinked.com/static/other/team-icon.png'></image>
+        </navigator>
+        <navigator open-type="redirect" class='member-list-link' url="/pages/member-list/member-list" hover-class="navigator-hover">更多>></navigator>
+      </view>
+    </view>
+  </swiper-item>
+
+  <swiper-item>
+    <view id='swiper'>
+      <navigator open-type="redirect" url="/pages/agent/index/index" hover-class="navigator-hover">
+        <image src="http://www.sinelinked.com/static/user/team/6008078088-4993-4725-ac91-2eeb2f63395f/teamHead.jpg" class="slide-image" />
+        <view class='name'>李慧</view>
+        <view class='bianhao'>2526854625485</view>
+        <view class='gongsi'>中国平安保险公司</view>
+        <view class='zhiwei'>销售顾问</view>
+        <view bindtap='makePhoneCall' class='phone'>
+          <image src='http://www.sinelinked.com/static/other/tel.png'></image>18769526199</view>
+        <text class='jieshao'>保险传递着爱与责任，用专业中立的态度用心为您规划保险，是我们的爱和责任，保险让生活更美好！</text>
+      </navigator>
+
+      <view class='bottom-link'>
+        <navigator open-type="redirect" class='team-link' url="/pages/pro-team/index/index" hover-class="navigator-hover">团队
+          <image src='http://www.sinelinked.com/static/other/team-icon.png'></image>
+        </navigator>
+        <navigator open-type="redirect" class='member-list-link' url="/pages/member-list/member-list" hover-class="navigator-hover">更多>></navigator>
+      </view>
+    </view>
+  </swiper-item>
+
+
+</swiper>

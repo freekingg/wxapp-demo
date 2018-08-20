@@ -1,0 +1,25 @@
+/**index.wxss**/
+
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.null-icon{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20rpx;
+}
+.null-icon image{
+	width: 100%;
+}
+.agent-info{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30rpx;
+	color: #666666;
+}

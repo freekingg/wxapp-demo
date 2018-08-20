@@ -1,0 +1,68 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="page__bd">
+		<view class="weui-search-bar">
+			<view class="weui-search-bar__form">
+				<view class="weui-search-bar__box">
+					<icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+					<input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping"
+					/>
+					<view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+						<icon type="clear" size="14"></icon>
+					</view>
+				</view>
+				<label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+					<icon class="weui-icon-search" type="search" size="14"></icon>
+					<view class="weui-search-bar__text">请输入顾问名称</view>
+				</label>
+			</view>
+			<view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+		</view>
+		<view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
+			<navigator url="/pages/agent/index/index?account_id=Z1ECB320180605" class="weui-cell" hover-class="weui-cell_active">
+				<view class="weui-cell__bd">
+					<view class="weui-panel">
+						<view class="weui-panel__bd">
+							<view class="weui-media-box weui-media-box_text">
+								<view class="weui-media-box__title weui-media-box__title_in-text">贤心</view>
+								<view class="weui-media-box__desc">您的贴心保险顾问</view>
+								<view class="weui-media-box__info">
+									<view class="weui-media-box__info__meta">山东济南</view>
+									<view class="weui-media-box__info__meta">男</view>
+									<view class="weui-media-box__info__meta weui-media-box__info__meta_extra">寿险</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</navigator>
+			<navigator url="/pages/agent/index/index?account_id=Z1ECB320180605" class="weui-cell" hover-class="weui-cell_active">
+				<view class="weui-cell__bd">
+					<view class="weui-panel">
+						<view class="weui-panel__bd">
+							<view class="weui-media-box weui-media-box_text">
+								<view class="weui-media-box__title weui-media-box__title_in-text">倒影</view>
+								<view class="weui-media-box__desc">您的贴心保险顾问</view>
+								<view class="weui-media-box__info">
+									<view class="weui-media-box__info__meta">山东济南</view>
+									<view class="weui-media-box__info__meta">男</view>
+									<view class="weui-media-box__info__meta weui-media-box__info__meta_extra">寿险</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</navigator>
+			
+		</view>
+		<view class="null-icon">
+			<image mode="aspectFit" src='http://www.sinelinked.com/static/other/no.png'></image>
+		</view>
+		<view>
+			<text class="agent-info">
+				您的贴心保险顾问 为您提供寿险、财险、车险、团体险的专业咨询，以及全方位的、科学的理财规划。用保险佑护人生，让财富有效增值。
+			</text>
+		</view>
+	</view>
+
+</view>

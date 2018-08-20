@@ -1,0 +1,6 @@
+/**app.wxss**/
+@import 'weui.wxss';
+
+#shareImageUrl{
+  display: none
+}

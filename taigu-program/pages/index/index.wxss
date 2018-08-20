@@ -1,0 +1,215 @@
+/**index.wxss**/
+
+page {
+  background: #f1f1f1;
+}
+
+.swiper {
+  margin-bottom: 20rpx;
+}
+
+.slide-image {
+  /* width: 100%; *//* height: 100%; */
+  width: 750rpx;
+  height: 300rpx;
+}
+
+.business {
+  background: url(http://www.sdteragram.com/miniprogram/image/business-bg.jpg) no-repeat center;
+  background-size: contain;
+  height: 527rpx;
+  width: 750rpx;
+  margin-bottom: 22rpx;
+}
+
+.business-title {
+  padding-top: 18rpx;
+  font-size: 28rpx;
+  color: #fff;
+  text-align: center;
+  display: block;
+  line-height: 50rpx;
+}
+
+.business-info {
+  font-size: 18rpx;
+  color: #fff;
+  text-align: center;
+  display: block;
+  line-height: 46rpx;
+}
+
+.business-list {
+  display: flex;
+  width: 96%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.business-list-item {
+  box-sizing: border-box;
+  width: 324rpx;
+  height: 170rpx;
+  padding-left: 30rpx;
+  margin-top: 20rpx;
+  background: #fff;
+  border-radius: 8rpx;
+}
+
+.list-item-text {
+  display: inline-block;
+}
+
+.list-item-text text {
+  display: block;
+  font-size: 18rpx;
+  line-height: 34rpx;
+  color: #999;
+}
+
+.list-item-text .list-item-text-em {
+  font-size: 18rpx;
+  font-weight: bold;
+  line-height: 54rpx;
+}
+
+.business-list .business-list-item:nth-child(1) .list-item-text-em {
+  color: #f55;
+}
+.business-list .business-list-item:nth-child(2) .list-item-text-em {
+  color: #fea032;
+}
+.business-list .business-list-item:nth-child(3) .list-item-text-em {
+  color: #59bf1b;
+}
+.business-list .business-list-item:nth-child(4) .list-item-text-em {
+  color: #06ace9;
+}
+.list-item-img {
+  /* display: inline-block; */
+  height: 100%;
+  float: right;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-right: 10rpx;
+}
+
+.business-list .business-list-item:nth-child(1) image {
+  width: 167rpx;
+  height: 142rpx;
+}
+.business-list .business-list-item:nth-child(2) image {
+  width: 149rpx;
+  height: 137rpx;
+}
+.business-list .business-list-item:nth-child(3) image {
+  width: 176rpx;
+  height: 169rpx;
+}
+.business-list .business-list-item:nth-child(4) image {
+  width: 156rpx;
+  height: 163rpx;
+}
+/*hot-skill  */
+.hot-skill{
+  background: #fff;
+  padding-bottom: 30rpx;
+  
+}
+.center{
+  width: 670rpx;
+  margin: 0 auto;
+  padding-top: 26rpx;
+  background: url(http://www.sdteragram.com/miniprogram/image/hot-title-bg.png) no-repeat center top;
+  background-size: 647rpx 144rpx;
+}
+.skill-title{
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+.skill-title image{
+  width: 368rpx;
+  height: 63rpx;
+}
+.skill-items{
+  width: 670rpx;
+  height: 232rpx;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+.skill-items image{
+  width: 100%;
+  height: 232rpx;
+}
+.text-info{
+  position: absolute;
+  width: 386rpx;
+  top: 0;
+  left: 234rpx;
+  color: #fff;
+  padding-top: 20rpx;
+}
+.text-info-head{
+  font-size: 22rpx;
+  line-height: 42rpx;
+  display: block;
+}
+.text-info-sub{
+  font-size: 18rpx;
+  display: block;
+  line-height: 42rpx;
+}
+.text-info-main{
+  font-size: 18rpx;
+  display: block;
+  line-height: 32rpx;
+}
+.znyj {
+  padding-bottom: 60rpx;
+  margin-top: 20rpx;
+}
+.znyj .skill-title image{
+  width: 144rpx;
+  height: 63rpx;
+}
+.znyj-con-title{
+  margin-top: 42rpx;
+  border-left: 8rpx solid #ff931a;
+  line-height: 24rpx;
+  padding-left: 8rpx;
+}
+.znyj-con-title text:nth-child(1){
+  font-size: 20rpx;
+}
+.znyj-con-title text:nth-child(2){
+  font-size: 18rpx;
+}
+.show-box{
+  display: flex;
+  justify-content: space-between;
+}
+.show-items{
+  width: 197rpx;
+  height: 152rpx;
+  margin-top: 46rpx;
+  position: relative;
+}
+.show-items image{
+  width: 197rpx;
+  height: 152rpx;
+}
+.down-txt{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 36rpx;
+  background: rgba(0, 0, 0, .5);
+  text-align: center;
+  color: #fff;
+  font-size: 18rpx;
+  line-height: 36rpx;
+  letter-spacing: 3rpx;
+}

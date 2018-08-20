@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/about/about",
+    "pages/case/case"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#343437",
+    "navigationBarTitleText": "山东泰顾网络科技有限公司",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor":"#0b4ca5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"assets/images/home.png",
+        "selectedIconPath": "assets/images/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "iconPath": "assets/images/case.png",
+        "selectedIconPath": "assets/images/case-active.png",
+        "text": "案例"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "assets/images/about.png",
+        "selectedIconPath": "assets/images/about-active.png",
+        "text": "关于我们"
+      }
+    ]
+  }
+  
+}

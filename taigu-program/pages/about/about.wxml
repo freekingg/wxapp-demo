@@ -1,0 +1,46 @@
+<!--pages/about/about.wxml-->
+<view class='about-top'>
+  <image class='logo' src='http://www.sdteragram.com/miniprogram/image/logo.png'></image>
+  <view class='center'>
+    <image class='art-title' src='http://www.sdteragram.com/miniprogram/image/art-title.png'></image>
+    <text class='slogin'>欢迎有创意的技术团队加盟，公司将提供平台支持</text>
+    <view class='company-info'>
+      <text bindtap='makePhoneCall'>0531-88683408</text>
+      <text>www.sdteragram.com</text>
+      <text>sdtg@sdteragram.com     hr@sdteragram.com</text>
+      <text>济南市高新区舜华路2000号舜泰广场1号楼东座26楼A3室</text>
+    </view>
+  </view>
+</view>
+<!--advisory  -->
+
+<!--<view class='hot-skill advisory'>
+  <view class='center'>
+    <view class='skill-title'>
+      <image src='http://www.sdteragram.com/miniprogram/image/zx.jpg'></image>
+    </view>
+    <view class="textarea">
+      <textarea adjust-position='true'  placeholder="请输入您想咨询的问题......" />
+    </view>
+    <view class="textarea">
+      <input  placeholder="请输入您的姓名" />
+    </view>
+    <view class="textarea">
+      <input  placeholder="请输入您的联系方式" />
+    </view>
+
+    <view class='btn'>
+      <image src='http://www.sdteragram.com/miniprogram/image/btn.jpg'></image>
+    </view>
+  </view>
+</view>-->
+ <map
+      id="myMap"
+      style="width: 100%; height: 300px;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      covers="{{covers}}"
+      show-location
+      scale='15'
+    ></map>

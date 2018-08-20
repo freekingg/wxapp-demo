@@ -1,0 +1,28 @@
+<!--pages/show/show.wxml-->
+<view class='header-banner'>
+      <image   binderror='imageError' id="ImgSelfCoverPath" src='{{ ImgSelfCoverPath}}'></image>
+</view>
+<view class='show-info'>
+  <view class='center'>
+    <image id="ImgHeadPath"  mode='aspectFit'  binderror='imageError'  class='show-info-head' src='{{ ImgHeadPath || defaultHeadImg }}'></image>
+    <text class='name'>{{ agentShowData.data[0].name }}</text>
+    <text class='nike'>{{ agentShowData.data[0].self_show_intro }}</text>
+  </view>
+</view>
+<view class='show-main'>
+    <text class='show-main-title'>个人秀</text>
+    <view class='show-content'>
+      <view class='center'>
+        <view class="show-item {{ agentShowData.message.ImgSelfPath.length==1?'oneImg':'' }}" wx:key="index"  wx:for="{{ImgSelfPath}}" wx:key="index" data-item = '{{ item }}'  bindtap='previewImages'>
+          <image mode="{{ agentShowData.message.ImgSelfPath.length==1?'aspectFit':'aspectFill' }}" src='{{ item }}'></image>
+        </view>
+      </view>
+
+      <!-- 封底 -->
+     
+    </view>
+<!--分享图片  -->
+<image id='shareImageUrl' binderror='imageError' src='{{ agentShowData.message.shareImageUrl }}'></image>
+</view>
+<import src="../../tabbar-agent/tabbar-agent.wxml"/>
+<template is="tabbar" data="{{tabbar}}"/>

@@ -1,0 +1,111 @@
+/* pages/about/about.wxss */
+page{
+  background: #f1f1f1;
+}
+.about-top{
+  width: 100%;
+  height: 573rpx;
+  box-sizing: border-box;
+  padding-top: 34rpx;
+  background: url(http://www.sdteragram.com/miniprogram/image/about-bg.jpg) no-repeat center;
+  background-size: contain
+}
+.logo{
+  margin-left: 34rpx;
+  width: 168rpx;
+  height: 49rpx;
+}
+.center{
+  width: 560rpx;
+  margin:0 auto; 
+}
+.art-title{
+  width: 500rpx;
+  height: 107rpx;
+  display: block;
+  margin: 30rpx auto;
+}
+.slogin{
+  display: block;
+  font-size: 20rpx;
+  opacity: 0.8;
+  line-height: 50rpx;
+  text-align: center;
+  color: #fff;
+}
+.company-info text{
+  display: block;
+  color: #fff;
+  line-height: 50rpx;
+  font-size: 20rpx;
+  padding-left: 40rpx;
+}
+.company-info text:nth-child(1){
+  background:url(http://www.sdteragram.com/miniprogram/image/tel.png) no-repeat left center;
+  background-size: 21rpx 21rpx;
+}
+.company-info text:nth-child(2){
+  background:url(http://www.sdteragram.com/miniprogram/image/brows.png) no-repeat left center;
+  background-size: 24rpx 22rpx;
+}
+.company-info text:nth-child(3){
+  background:url(http://www.sdteragram.com/miniprogram/image/mail.png) no-repeat left center;
+  background-size: 21rpx 17rpx;
+}
+.company-info text:nth-child(4){
+  background:url(http://www.sdteragram.com/miniprogram/image/address.png) no-repeat left center;
+  background-size: 20rpx 26rpx;
+}
+
+.hot-skill{
+  background: #fff;
+  padding-bottom: 30rpx;
+  margin-bottom: 40rpx;
+  
+}
+.center{
+  width: 670rpx;
+  margin: 0 auto;
+  padding-top: 26rpx;
+  background: url(http://www.sdteragram.com/miniprogram/image/hot-title-bg.png) no-repeat center top;
+  background-size: 647rpx 144rpx;
+}
+.skill-title{
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+.skill-title image{
+  width: 141rpx;
+  height: 36rpx;
+}
+.textarea textarea{
+  width: 675rpx;
+  height: 224rpx;
+  box-sizing: border-box;
+  padding: 30rpx;
+}
+.textarea {
+  
+  font-size: 20rpx;
+  background: #f1f1f1;
+  
+  margin-bottom: 20rpx;
+}
+.textarea input{
+  padding-left: 30rpx;
+  height: 71rpx;
+}
+.btn {
+  margin: 10rpx auto;
+  margin-top: 20rpx;
+  width: 202rpx;
+  height: 58rpx;
+}
+.btn image{
+  width: 202rpx;
+  height: 58rpx;
+}
+.contact{
+  width: 100px;
+  height: 200px;
+}

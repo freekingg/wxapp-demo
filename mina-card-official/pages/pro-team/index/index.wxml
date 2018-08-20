@@ -1,0 +1,78 @@
+<!--index.wxml-->
+<view class="container">
+  <!--header-banner  -->
+  <view class='header-banner'>
+    <view class='head-img'>
+      <image  binderror='imageError' src='{{ agentData.message.imgProTeamHeadPath || defaultHeadImg }}'></image>
+      <text>{{ agentData.data[0].team_name }}</text>
+    </view>
+    <view class='head-bg'>
+      <image src='http://www.sinelinked.com/static/other/head-bg.jpg'></image>
+    </view>
+    <!--奖牌  -->
+    <view class='medal'>
+      <image src='http://www.sinelinked.com/static/other/medal.png'></image>
+    </view>
+    <!--所属团队  -->
+     <navigator url="/pages/member/member?title=navigate" hover-class="navigator-hover">
+      <view class='belongTeam' >
+        <image src='http://www.sinelinked.com/static/other/team.png'></image>
+        <text>成员</text>
+      </view>
+       </navigator>
+  </view>
+
+  <!--main-info  -->
+  <view class='main-info'>
+    <view class='center'>
+      <view main-info-cell>
+        <text>服务范围：</text>
+        <text class='cell-val'>{{ agentData.data[0].address }}</text>
+      </view>
+<!--      <view main-info-cell>
+        <text>联系方式：</text>
+        <text class='cell-val'>{{ agentData.data[0].phone }} </text>
+      </view> -->
+      <view main-info-cell>
+        <text>成立时间：</text>
+        <text class='cell-val'>{{ createTime  }}</text>
+      </view>
+			<view main-info-cell bindtap='makePhoneCall' class='main-info-cell-warp'>
+				<image class='main-info-cell' src='http://www.sinelinked.com/static/other/tel.png'></image>
+				<text>联系我</text>
+			</view>
+    </view>
+  </view>
+
+  <view class='main-pro'>
+    <view class='center'>
+      <text>个人简介</text>
+      <view class='main-pro-con'>
+        {{ agentData.data[0].introduction }}
+      </view>
+    </view>
+  </view>
+	<view class='main-pro'>
+		<view class='center'>
+			<text>团队之星</text>
+			<view class='main-pro-con'>
+				<view class='head-img'>
+					<navigator url="/pages/agent/index/index?" hover-class="navigator-hover">
+						<image  binderror='imageError' src='http://www.sinelinked.com/static/user/team/6008078088-4993-4725-ac91-2eeb2f63395f/teamHead.jpg'></image>
+						<text>李玲玲</text>
+					</navigator>
+					<text>
+								保险传递着爱与责任，用专业中立的态度用心为您规划保险，是我们的爱和责任，保险让生活更美好！
+					</text>
+				</view>
+			</view>
+		</view>
+	</view>
+	
+<!--分享图片  -->
+<image id='shareImageUrl' binderror='imageError' src='{{ agentData.message.shareImageUrl }}'></image>
+
+</view>
+
+<import src="../../tabbar-proTeam/tabbar-proTeam.wxml"/>
+<template is="tabbar" data="{{tabbar}}"/>

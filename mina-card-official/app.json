@@ -1,0 +1,23 @@
+{
+  "pages": [
+		"pages/home/index/index",
+		"pages/agent/msg/msg",
+    "pages/agent/index/index",
+    "pages/agent/product/product",
+    "pages/agent/show/show",
+    "pages/agent/share/share",
+    "pages/pro-team/index/index",
+    "pages/pro-team/msg/msg",
+    "pages/pro-team/show/show",
+		"pages/pro-team/product/product",
+    "pages/member/member",
+    "pages/member-list/member-list"
+		
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3d6cc8",
+    "navigationBarTitleText": "保信云顾问",
+    "navigationBarTextStyle": "#fff"
+  }
+}

@@ -1,0 +1,121 @@
+<!--index.wxml-->
+
+<!--swiper  -->
+<view class='swiper'>
+  <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" circular="true">
+
+    <swiper-item>
+      <image src="http://www.sdteragram.com/miniprogram/image/banner01.jpg" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+      <image src="http://www.sdteragram.com/miniprogram/image/banner02.jpg" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+      <image src="http://www.sdteragram.com/miniprogram/image/banner03.jpg" class="slide-image" />
+    </swiper-item>
+
+  </swiper>
+</view>
+
+<!--business  -->
+<view class='business'>
+  <text class='business-title'>互联网应用开发</text>
+  <text class='business-info'>专业而高效的技术团队，精确了解用户需求，持续追求高品质实现，连续的全周期服务支持</text>
+  <!--business-list -->
+  <view class='business-list'>
+    <view class='business-list-item animated  {{fadeInDown==true ? "fadeInDown" : ""}}'>
+      <view class='list-item-text'>
+        <text class='list-item-text-em'>应用系统开发</text>
+        <text>· 邮件管理</text>
+        <text>· 三维评测</text>
+      </view>
+      <view class='list-item-img'>
+        <image src='http://www.sdteragram.com/miniprogram/image/business-list01.jpg'></image>
+      </view>
+    </view>
+    <view class='business-list-item animated  {{fadeInDown==true ? "fadeInDown" : ""}}'>
+      <view class='list-item-text'>
+        <text class='list-item-text-em'>网站开发</text>
+        <text>· 企业官网</text>
+        <text>· 集团站群</text>
+        <text>· 响应式设计</text>
+      </view>
+      <view class='list-item-img'>
+        <image src='http://www.sdteragram.com/miniprogram/image/business-list02.jpg'></image>
+      </view>
+    </view>
+    <view class='business-list-item animated  {{fadeInDown==true ? "fadeInDown" : ""}}'>
+      <view class='list-item-text'>
+        <text class='list-item-text-em'>微信相关服务</text>
+        <text>· 公众号</text>
+        <text>· 小程序</text>
+      </view>
+      <view class='list-item-img'>
+        <image src='http://www.sdteragram.com/miniprogram/image/business-list03.jpg'></image>
+      </view>
+    </view>
+    <view class='business-list-item animated {{fadeInDown==true ? "fadeInDown" : ""}}'>
+      <view class='list-item-text'>
+        <text class='list-item-text-em'>移动app 开发</text>
+        <text>· app应用</text>
+        <text>· 手机网站</text>
+      </view>
+      <view class='list-item-img'>
+        <image src='http://www.sdteragram.com/miniprogram/image/business-list04.jpg'></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!--hot skill  -->
+<view class='hot-skill'>
+  <view class='center'>
+    <view class='skill-title'>
+      <image src='http://www.sdteragram.com/miniprogram/image/jsyj.jpg'></image>
+    </view>
+    <view class='skill-items'>
+       <image src='http://www.sdteragram.com/miniprogram/image/rgzn.jpg'></image>
+       <view class='text-info'>
+        <text class='text-info-head'>人工智能技术</text>
+        <text class='text-info-sub'>——在保险方案设计中的应用研究</text>
+        <text class='text-info-main'>特定的人群对保险服务会有相似的需求，在积累足够多的数据后，用户的数字画像会逐渐清晰，通过机器学习，可以精确的确定用户的需求。</text>
+       </view>
+    </view>
+    <view class='skill-items'>
+       <image src='http://www.sdteragram.com/miniprogram/image/qkl.jpg'></image>
+       <view class='text-info'>
+        <text class='text-info-head'>区块链技术</text>
+        <text class='text-info-sub'>——在保险销售体系中的应用研究</text>
+        <text class='text-info-main'>区块链技术做为一个底层技术，非常契合保险市场的应用场景。区块链技术将推动保险市场体系的变革，并跟随保险领域的变革而进步。</text>
+       </view>
+    </view>
+  </view>
+</view>
+
+<!--  -->
+<view class='hot-skill znyj'>
+  <view class='center'>
+    <view class='skill-title'>
+      <image src='http://www.sdteragram.com/miniprogram/image/znjj.jpg'></image>
+    </view>
+    <view class='znyj-con-title'>
+      <text>小微电脑 </text>
+      <text> ——更精致的办公，更优雅的生活</text>
+    </view>
+    <view class='show-box'>
+      <view class='show-items'>
+       <image src='http://www.sdteragram.com/miniprogram/image/xwdn1.jpg'></image>
+       <view class='down-txt'>TG1</view>
+      </view>
+      <view class='show-items'>
+       <image src='http://www.sdteragram.com/miniprogram/image/xwdn2.jpg'></image>
+       <view class='down-txt'>TG2</view>
+      </view>
+      <view class='show-items'>
+       <image src='http://www.sdteragram.com/miniprogram/image/xwdn3.jpg'></image>
+       <view class='down-txt'>TG3</view>
+      </view>
+    </view>
+
+  </view>
+</view>
